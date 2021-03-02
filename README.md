@@ -205,7 +205,7 @@ cd install_odoo_docker
 - Odoo
 
 ```
-http://<myipaddress>:8069
+http://<ไอพีเครื่อง server หรือ dns ของ server>:8069
 ```
 
 หรือ
@@ -214,7 +214,7 @@ http://localhost:8069
 - pgadmin
 
 ```
-http://<myipaddress>:80
+http://<ไอพีเครื่อง server หรือ dns ของ server>:80
 ```
 
 หรือ
@@ -223,7 +223,7 @@ http://localhost:80
 - portainer
 
 ```
-http://<myipaddress>:9000
+http://<ไอพีเครื่อง server หรือ dns ของ server>:9000
 ```
 
 หรือ
