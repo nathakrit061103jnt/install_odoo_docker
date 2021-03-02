@@ -1,4 +1,4 @@
-version: "2"
+ersion: "2"
 services:
   web:
     image: odoo
@@ -30,8 +30,8 @@ services:
     volumes:
       - pgadmin-data:/var/lib/pgadmin
     environment:
-      PGADMIN_DEFAULT_EMAIL: admin@example.com
-      PGADMIN_DEFAULT_PASSWORD: root
+    PGADMIN_DEFAULT_EMAIL: admin@example.com
+    PGADMIN_DEFAULT_PASSWORD: root
 
   portainer:
     image: portainer/portainer
@@ -44,7 +44,7 @@ services:
       - portainer_data:/data
 
 volumes:
-  odoo-web-data:
-  odoo-db-data:
-  portainer_data:
-  pgadmin-data:
+odoo-web-data:
+odoo-db-data:
+portainer_data:
+pgadmin-data:

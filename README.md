@@ -85,7 +85,13 @@ Services ที่เราจะทำการติดตั้งมา 4 Se
 - Pg Admin ใช้จัดการฐานข้อมูล Postgres DB
 - Portainer ใช้ในการจัดการ Docker ผ่าน GUI Web Application เพื่อสะดวกในการใช้งาน Docker
 
-  1.  สร้าง docker-compose.yml
+  1.
+
+  ```
+  nano docker-compose.yml
+  ```
+
+  2. Copy Code เเล้ววางในไฟล์ docker-compose.yml
 
   ```yml
   version: "2"
@@ -140,7 +146,9 @@ Services ที่เราจะทำการติดตั้งมา 4 Se
   pgadmin-data:
   ```
 
-  2.  ทำการ Buil File docker-compose.yml เพื่อ Run Services ต่าง ๆ
+  3.  เมื่อนำโค้ดมาวางเเล้วทำการ save code โดย กด ctrl+o+Enter จากนั้น ctrl+x เพื่อ Save Code
+
+  4.  ทำการ Buil File docker-compose.yml เพื่อ Run Services ต่าง ๆ
 
   ```yml
   sudo docker-compose up -d
