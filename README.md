@@ -101,7 +101,7 @@ Services ที่เราจะทำการติดตั้งมา 4 Se
         - ./config:/etc/odoo
         - ./addons:/mnt/extra-addons
     db:
-      image: postgres:10
+      image: postgres
       environment:
         - POSTGRES_DB=postgres
         - POSTGRES_PASSWORD=odoo
