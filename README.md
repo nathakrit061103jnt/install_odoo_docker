@@ -146,6 +146,28 @@ Services ที่เราจะทำการติดตั้งมา 4 Se
   sudo docker-compose up -d
   ```
 
+## วิธีที่ 2 คือ การ clone project ใน github มา
+
+- เเต่วิธีนี้ต้องมีบัญชี git hub ด้วย
+
+1.
+
+```
+sudo git clone https://github.com/nathakrit061103jnt/install_odoo_docker.git
+```
+
+2.
+
+```
+cd install_odoo_docker
+```
+
+3.
+
+```
+ sudo docker-compose up -d
+```
+
 ### Port ที่ใช้ใน Service ต่าง ๆ
 
 - odoo ใช้ port tcp 9000
