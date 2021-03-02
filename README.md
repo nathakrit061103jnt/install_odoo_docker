@@ -143,7 +143,7 @@ Services ที่เราจะทำการติดตั้งมา 4 Se
   2.  ทำการ Buil File docker-compose.yml เพื่อ Run Services ต่าง ๆ
 
   ```yml
-  docker-compose up -d
+  sudo docker-compose up -d
   ```
 
 ### Port ที่ใช้ใน Service ต่าง ๆ
