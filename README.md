@@ -73,7 +73,7 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 - เช็กเวอร์ชันของ Docker Compose
 
 ```
-docker-compose --version
+sudo docker-compose --version
 ```
 
 ### ติดตั้ง Odoo โดยใช้ Docker Compose File
