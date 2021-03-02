@@ -145,3 +145,27 @@ Services ที่เราจะทำการติดตั้งมา 4 Se
   ```yml
   docker-compose up -d
   ```
+
+### Port ที่ใช้ใน Service ต่าง ๆ
+
+- odoo ใช้ port tcp 9000
+- postgresQL ใช้ port tcp 5432
+- pgadmin ใช้ port tcp 80,53603
+- portainer ใช้ port tcp 9000
+
+### email username password ของเเต่ละ Service
+
+- postgresQL
+
+```
+  POSTGRES_DB=postgres
+  POSTGRES_PASSWORD=odoo
+  POSTGRES_USER=odoo
+```
+
+- pgadmin
+
+```
+    EMAIL: admin@example.com
+    PASSWORD: root
+```
