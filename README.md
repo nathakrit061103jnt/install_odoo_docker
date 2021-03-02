@@ -178,7 +178,7 @@ cd install_odoo_docker
 
 ### Port ที่ใช้ใน Service ต่าง ๆ
 
-- odoo ใช้ port tcp 9000
+- odoo ใช้ port tcp 8069
 - postgresQL ใช้ port tcp 5432
 - pgadmin ใช้ port tcp 80,53603
 - portainer ใช้ port tcp 9000
@@ -199,3 +199,32 @@ cd install_odoo_docker
     EMAIL: admin@example.com
     PASSWORD: root
 ```
+
+### Url ของ Services ที่รัน
+
+- Odoo
+
+```
+http://<myipaddress>:8069
+```
+
+หรือ
+http://localhost:8069
+
+- pgadmin
+
+```
+http://<myipaddress>:80
+```
+
+หรือ
+http://localhost:80
+
+- portainer
+
+```
+http://<myipaddress>:9000
+```
+
+หรือ
+http://localhost:9000
